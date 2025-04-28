@@ -1,11 +1,11 @@
 <?php
 return array(
     'base' => '/mvcdemo/',
-    'baseURL' => 'http://localhost/mvcdemo/',
+    'baseURL' => 'http://localhost/PTITCNTT02/mvcdemo/',
     'assets' => '/mvcdemo/assets',
     'db' => array(
         'host'     => 'localhost',
-        'name'     => 'ProductDB',
+        'name'     => 'productdb',
         'username' => 'root',
         'password' => ''
     )
