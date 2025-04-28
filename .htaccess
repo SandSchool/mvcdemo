@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /mvcdemo/
+
+# Bỏ qua xử lý các file ảnh, JS, CSS – cho load trực tiếp
+RewriteCond %{REQUEST_URI} \.(jpg|jpeg|png|gif|webp|svg|css|js)$ [NC]
+RewriteRule ^ - [L]
+
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
