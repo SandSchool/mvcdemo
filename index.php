@@ -4,6 +4,8 @@ require_once "App/Controllers/UserController.php";
 require_once "App/Controllers/HomeController.php";
 require_once "App/Controllers/CartController.php";
 require_once "App/Controllers/OrderController.php";
+require_once "App/Controllers/AdminController.php";
+
 $url = $_GET['url'];
 $urlArr = explode('/', $url);
 // var_dump($urlArr);
